@@ -6,10 +6,8 @@ The default theme for Ghost, as a static site.
 
 ```bash
 sudo npm install -g harp
-sudo npm install -g component
 git clone https://github.com/kennethormandy/hb-casper.git
-component install -o public/components
-harp server casper
+harp server hb-casper
 ```
 
 ## Copyright & License
