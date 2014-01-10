@@ -22,7 +22,8 @@
    0. Includes - Ground zero
    ========================================================================== */
 
-@import url(normalize.css);
+@import "normalize";
+@import "../../components/harp-bourbon/scss/bourbon";
 
 
 /* ==========================================================================
@@ -30,16 +31,7 @@
    ========================================================================== */
 
 /* Import the font file with the icons in it */
-@font-face {
-    font-family: 'icons';
-    src:url('../fonts/icons.eot');
-    src:url('../fonts/icons.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/icons.woff') format('woff'),
-        url('../fonts/icons.ttf') format('truetype'),
-        url('../fonts/icons.svg#icons') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
+@include font-face(icons, '../fonts/icons');
 
 /* Apply these base styles to all icons */
 .icon-ghost:before, 
@@ -198,8 +190,7 @@ hr {
 }
 
 blockquote {
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+    @include box-sizing("border-box");
     margin: 1.6em 0 1.6em -2.2em;
     padding: 0 0 0 1.6em;
     border-left: #4a4a4a 0.4em solid;
@@ -240,8 +231,7 @@ code, tt {
 }
 
 pre {
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+    @include box-sizing("border-box");
     margin: 1.6em 0;
     border: 1px solid #E3EDF3;
     width: 100%;
@@ -280,8 +270,7 @@ kbd {
 }
 
 table {
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+    @include box-sizing("border-box");
     margin: 1.6em 0;
     width:100%;
     max-width: 100%;
@@ -794,9 +783,7 @@ margin on the iframe, cause it breaks stuff. */
     }
 
     .site-head {
-        -webkit-box-sizing: border-box; 
-        -moz-box-sizing: border-box;
-        box-sizing: border-box; 
+        @include box-sizing("border-box"); 
         height: auto;
         min-height: 240px;
         padding: 15% 0;

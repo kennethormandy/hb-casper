@@ -1,0 +1,7 @@
+{
+  "remotes": [],
+  "dependencies": {
+    "harp/bourbon": "*",
+    "necolas/normalize.css": "*"
+  }
+}

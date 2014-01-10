@@ -1,0 +1,17 @@
+{
+  "globals": {
+    "blog": {
+      "title": "Casper",
+      "description": "Just a static blog.",
+      "logo": false,
+      "cover": false,
+      "url": "/"
+    },
+    "author": {
+      "name": "Kenneth Ormandy",
+      "email": "kenneth@chloi.io",
+      "bio": "Hi, I like Harp"
+    }
+  },
+  "domains": []
+}

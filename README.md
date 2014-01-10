@@ -1,6 +1,14 @@
 # Casper
 
-The default theme for [Ghost](http://github.com/tryghost/ghost/).
+The default theme for Ghost, as a static site.
+
+## Setup
+
+```bash
+sudo npm install -g harp && npm install -g component
+git clone https://github.com/kennethormandy/hb-casper.git
+harp server casper
+```
 
 ## Copyright & License
 
