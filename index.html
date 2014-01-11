@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Document Settings -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Page Meta -->
+    <title>Casper</title>
+    <meta name="description" content="Just a static blog." />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Styles'n'Scripts -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/screen.css" /><!-- K: Need assets variable , or something like basepath -->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Open+Sans:700,400" />
+
+    <!-- Ghost outputs important style and meta data with this tag -->
+    <!-- {{ghost_head}} -->
+</head>
+<body class="home-template"><!-- K: body_class variable, home page class is home-template, post is like: post-template tag-getting-started -->
+
+    <!-- Everything else gets inserted here -->
+    
+        <!-- The big featured header on the homepage, with the site logo and description  -->
+<header class="site-head" >
+    <div class="vertical">
+        <div class="site-head-content inner">
+            
+            <h1 class="blog-title">Casper</h1>
+            <h2 class="blog-description">Just a static blog.</h2>
+            <p class="post-meta"><a href="http://github.com/kennethormandy.com/hb-casper">Fork on GitHub</a> &bull; <a href="https://harp.io/apps/new?boilerplate=kennethormandy/hb-casper">Try it on harp.io for free</a></p>
+
+        </div>
+    </div>
+</header>
+
+<!-- The main content area on the homepage  -->
+<main class="content" role="main">
+    <!-- Each post will be output using this markup  -->
+    
+    
+
+    <article class="post"><!-- K: also needs class tag- for each tag -->
+        <header class="post-header">
+            <span class="post-meta"><time datetime="Fri, 10 Jan 2014 08:00:00 GMT">10 Jan 2014</time> on Getting Started<!-- {{tags prefix="on "}}--></span>
+            <h2 class="post-title"><a href="welcome-to-harp">Welcome to Harp</a></h2>
+
+        </header>
+        <section class="post-excerpt">
+            <p>You’re in! Nice. We’ve put together a little post to introduce you to Harp and get you started. Go ahead and edit this post to get going and learn how it all works!
+Getting Started
+Writing in Markdown is really easy. Where appropriate, you can use formatting shortcuts to style your content.&hellip;</p><!-- K: Exerpt isn’t cuttoff exactly the same yet, needs to be plaintext -->
+        </section>
+    </article>
+
+
+    
+
+    <!--! After all the posts, we have the previous/next pagination links  -->
+    <!-- {{pagination}} -->
+
+</main>
+    
+
+    <footer class="site-footer">
+    <a class="subscribe icon-feed" href="/rss/index.xml"><span class="tooltip">Subscribe!</span></a>
+    <div class="inner">
+         <section class="copyright">All content copyright <a href="/">Casper</a> &copy; 2014 &bull; All rights reserved.</section>
+         <section class="poweredby">Proudly published with <a class="" href="http://harpjs.com">Harp</a></section>
+    </div>
+</footer>
+
+    <!-- Ghost outputs important scripts and data with this tag -->
+    <!-- {{ghost_foot}} -->
+
+    <!-- The main JavaScript file for Casper -->
+    <script type="text/javascript" src="/asset/js/jquery.fitvids.js"></script><!-- K: Change back to relative links -->
+    <script type="text/javascript" src="/asset/js/index.js"></script>
+
+</body>
+</html>

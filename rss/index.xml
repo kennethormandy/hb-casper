@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Casper</title>
+    <link>/</link>
+    <description>Just a static blog.</description>
+    <atom:link href="welcome-to-harp/feed.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>Welcome to Harp</title>
+        <description><![CDATA[<p>You’re in! Nice. We’ve put together a little post to introduce you to Harp and get you started. Go ahead and edit this post to get going and learn how it all works!</p>
+<h2>Getting Started</h2>
+<p>Writing in Markdown is really easy. Where appropriate, you can use <em>formatting</em> shortcuts to style your content. For example, a list:</p>
+<ul>
+<li>Item number one</li>
+<li>Item number two<ul>
+<li>A nested item</li>
+</ul>
+</li>
+<li>A final item</li>
+</ul>
+<p>or with numbers!</p>
+<ol>
+<li>Remember to buy some milk</li>
+<li>Drink the milk</li>
+<li>Tweet that I remembered to buy the milk, and drank it</li>
+</ol>
+<h3>Links</h3>
+<p>Want to link to a source? No problem. If you paste in url, like <a href="http://harpjs.com">http://harpjs.com</a> - it’ll automatically be linked up. But if you want to customise your anchor text, you can do that too! Here’s a link to <a href="http://harpjs.com">the Harp website</a>. Neat.</p>
+<h3>What about Images?</h3>
+<p>Images work too! Already know the URL of the image you want to include in your article? Simply paste it in like this to make it show up:</p>
+<p><img src="http://harpjs.com/identity/resources/750/harp-wordmark-white-on-blue.png" alt="The Harp Logo"></p>
+<p>Not sure which image you want to use yet? That’s ok too. Leave yourself a descriptive placeholder and keep writing.</p>
+<p>![A bowl of bananas]</p>
+<h3>Quoting</h3>
+<p>Sometimes a link isn’t enough, you want to quote someone on what they’ve said. It was probably very wisdomous. Is wisdomous a word? Find out in a future release when we introduce spellcheck! For now – it’s definitely a word.</p>
+<blockquote>
+<p>Wisdomous – it’s definitely a word.</p>
+</blockquote>
+<h3>Working with Code</h3>
+<p>Got a streak of geek? We’ve got you covered there, too. You can write inline <code>&lt;code&gt;</code> blocks really easily with back ticks. Want to show off something more comprehensive? Using <code>```</code> at the beginning and end of the block gets you there.</p>
+<pre><code class="language-css">.awesome-thing {
+    display: block;
+    width: 100%;
+}</code></pre>
+<h3>Ready for a Break?</h3>
+<p>Throw 3 or more dashes down on any new line and you’ve got yourself a fancy new divider. Aw yeah.</p>
+<hr>
+<h3>Advanced Usage</h3>
+<p>There’s one fantastic secret about Markdown. If you want, you can write plain old HTML and it&#39;ll still work! Very flexible.</p>
+<input type="text" placeholder="I’m an input field!" />
+
+<p>That should be enough to get you started. Have fun – and let us know what you think :)</p>
+]]></description>
+        <pubDate>Fri Jan 10 2014 18:32:09 GMT-0800 (PST)</pubDate>
+        <link>/welcome-to-harp</link>
+        <guid isPermaLink="true">/welcome-to-harp</guid>
+      </item>
+    
+  </channel>
+</rss>
