@@ -2,6 +2,8 @@
 
 The default theme for Ghost, as a static site.
 
+![Casper, Ghost’s default blogging theme, as a static site with Harp](preview.png)
+
 ## Get started
 
 This blog template uses [Harp](http://harpjs.com), the static web server with built-in preprocessing.
@@ -17,7 +19,7 @@ harp server ~/Dropbox/harp.io/apps/the-subdomain-you-chose.harp.io
 
 You can see the local version running in your browser at [localhost:9000](http://localhost:9000).
 
-## Without the Harp Platform
+### Deploying elsewhere
 
 If you’re prefer to run this boilerplate without the Harp Platform, that’s no problem. Just clone the boilerplate and serve it with Harp locally:
 
