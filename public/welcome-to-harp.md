@@ -1,4 +1,4 @@
-You’re in! Nice. We’ve put together a little post to introduce you to Harp and get you started. Go ahead and edit this post to get going and learn how it all works!
+This little posts will introduce you to Markdown in Harp. Go ahead and edit the `welcome-to-harp.md` file to get going and learn how it all works!
 
 ## Getting Started
 
@@ -58,4 +58,12 @@ There’s one fantastic secret about Markdown. If you want, you can write plain 
 
 <input type="text" placeholder="I’m an input field!" />
 
-That should be enough to get you started. Have fun – and let us know what you think :)
+That should be enough to get you started with Markdown.
+
+## Learn more about Harp
+
+Now, you’re probably read to start customising your static blog with Harp. Take a look at these helpful resources:
+
+* [Harp quick start guide](http://harpjs.com/docs/quick-start)
+* [Start a blog with Harp blog post](http://kennethormandy.com/journal/start-a-blog-with-harp)
+* [The Harp documentation](http://harpjs.com/docs/)
