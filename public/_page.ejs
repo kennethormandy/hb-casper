@@ -4,11 +4,14 @@
         <%- partial("_shared/header") %>
 
         <!-- Everything below outputs content of the the page which has been published -->
-        <h1 class="post-title"><%- yield.split("<h1>")[1].split("</h1>")[0] %></h1>
-
-        <section class="post-content">
-            <%- yield.split("</h1>")[1] %>
-        </section>
+        <% if(typeof(yield.split('<h1>'))==='undefined') { %>
+          <h1 class="post-title"><%- yield.split("<h1>")[1].split("</h1>")[0] %></h1>
+          <section class="post-content">
+              <%- yield.split("</h1>")[1] %>
+          </section>
+        <% } else { %>
+          <%- yield %>
+        <% } %>
 
     </article>
 

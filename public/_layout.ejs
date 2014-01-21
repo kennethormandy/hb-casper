@@ -25,12 +25,12 @@
 <body class="<% if(current.source == 'index') { %>home-template<% } else { %>post-template<% } %>"><!-- K: body_class variable, home page class is home-template, post is like: post-template tag-getting-started -->
 
     <!-- Everything else gets inserted here -->
-    <% if(current.source == 'index') { %>
+    <% if(current.source == 'index' && current.path.length == 1) { %>
         <%- yield %>
-    <% } else if(current.source == '404') { %>
-        <%- partial("_page", { yield: yield }) %>
+    <% } else if(typeof(public._data[current.source])!=='undefined') { %>
+        <%- partial("_post") %>
     <% } else { %>
-        <%- partial("_post", { yield: yield }) %>
+        <%- partial("_page") %>
     <% } %>
 
     <%- partial("_shared/footer") %>
