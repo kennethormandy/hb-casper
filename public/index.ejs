@@ -24,7 +24,8 @@
 
         </header>
         <section class="post-excerpt">
-            <p><%-: partial(url).replace(/<[^>]*>/g, "") | truncate_words: 50 %>&hellip;</p><!-- K: Exerpt isn’t cuttoff exactly the same yet, needs to be plaintext -->
+            <p><%- partial(url).replace(/<[^>]*>/g, "").substr(0, 250) %>&hellip;</p>
+            <!-- K: Exerpt isn’t cuttoff exactly the same yet, needs to be plaintext -->
         </section>
     </article>
 
